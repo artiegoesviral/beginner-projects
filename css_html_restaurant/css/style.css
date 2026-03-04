@@ -1,0 +1,536 @@
+@import url(reset.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+@import url('https: //fonts.google.com/specimen/Handlee');
+@import url('https://fonts.google.com/specimen/Montserrat');
+
+/* MENU ICONS */
+.menu-container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 10px 0 20px 100px;
+    background-color: #21242e;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1004px;
+    padding: 0 20px;
+}
+
+.header-top {
+    background-color: #21242e;
+    color: white;
+    padding: 15px 0;
+}
+
+.header-top ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.header-top li {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/* NAVIGATION BAR */
+.header-nav {
+    background-color: white;
+    padding: 15px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 35px 0;
+
+}
+
+.header-nav li {
+    margin-left: 20px;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links li {
+    color: #aaaaaa;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+        color: #fa573a;
+        ;
+    }
+}
+
+ul .inicio {
+    color: #fa573a;
+}
+
+.logo img {
+    height: 30px;
+    width: auto;
+}
+
+.hamburger {
+    display: none;
+}
+
+i {
+    font-size: larger;
+    color: #fa573a;
+}
+
+
+
+/* INICIO */
+.inicio {
+    display: flex;
+    padding: 25px 50px 0 220px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    max-width: 100%;
+}
+
+.inicio img {
+    width: 100px;
+}
+
+.inicio div {
+    display: inline-block;
+}
+
+.inicio nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 0 250px 0 10px;
+}
+
+.inicio nav li {
+    display: inline-block;
+    color: gray;
+    margin: 0 10px;
+}
+
+
+/* MAIN */
+.hero {
+    text-align: left;
+    align-content: center;
+    margin: 30px 0 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/fondo.jpg);
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero h1 {
+    color: white;
+    margin: 10px 10px 10px 200px;
+    font-family: 'Handlee';
+}
+
+.hero h2 {
+    display: flex;
+    color: #fa573a;
+    margin: 1px 1px 1px 190px;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.hero h3 {
+    color: white;
+    margin: 10px 10px 10px 200px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.hero-btn {
+    padding: 10px 0 0 200px;
+}
+
+.rrss {
+    padding: 10px 5px 5px 200px;
+    margin: 10px 0 0 10px;
+}
+
+.fa-brands {
+    padding: 10px 20px 0 0;
+    margin: 5px;
+}
+
+
+/* OUR SERVICES */
+.flex {
+    align-content: center;
+    color: #21242e;
+    padding: 20px 100px 20px 100px;
+    margin: 0;
+}
+
+.services {
+    text-align: center;
+    padding: 20px 20px;
+    font-family: 'Handlee';
+    font-size: 32px;
+}
+
+h2 span {
+    color: #fa573a;
+}
+
+.flex {
+    display: flex;
+    gap: 0;
+    padding: 0 10px 50px 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.flex article {
+    width: calc(33% - 20px);
+    padding: 0 50px 0 100px;
+}
+
+.sectionText {
+    align-self: flex-end;
+}
+
+.verticalLine {
+    border-left: thin solid #21242e;
+    padding: 20px;
+}
+
+p {
+    display: inline-block;
+    text-wrap: wrap;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.leer {
+    color: #fa573a;
+}
+
+/* LINE OUR SERVICES */
+
+.line {
+    position: relative;
+    width: 80px;
+    margin: 1rem auto;
+    height: 2px;
+    background-color: #fa573a;
+    margin-top: -11px;
+}
+
+.line hr {
+    display: none;
+}
+
+.line .x {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fa573a;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* ABOUT US */
+.about-section {
+    padding: 80px 10%;
+    background-color: #fff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* IMAGE SECTION */
+.image-container {
+    position: relative;
+}
+
+.image-frame {
+    position: relative;
+    display: inline-block;
+}
+
+.image-frame::after {
+    content: "";
+    position: absolute;
+    border: 3px solid #fa573a;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    transform: rotate(9deg);
+    z-index: 0;
+}
+
+.image-frame img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 420px;
+    height: auto;
+}
+
+/* TEXT SECTION */
+.text-container {
+    max-width: 520px;
+}
+
+.text-container h2 {
+    margin-top: -200px;
+    margin-left: -100px;
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 10px;
+    font-family: 'Handlee';
+}
+
+.text-container h2 span {
+    color: #fa573a;
+    font-weight: 600;
+}
+
+.text-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #111;
+}
+
+.subtitle {
+    color: #fa573a;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    color: #21242e;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* LINE */
+.aboutline-container {
+    position: relative;
+    width: 80px;
+    margin: 1rem auto;
+    height: 2px;
+    background-color: #fa573a;
+    margin-top: -10px;
+    margin-left: -75px;
+}
+
+.aboutline hr {
+    display: none;
+}
+
+
+.aboutx {
+    position: absolute;
+    left: 46%;
+    margin-top: -27px;
+    transform: translateX(-50%);
+    color: #fa573a;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* BUTTON */
+.btn {
+    background-color: #fa573a;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fa573a;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 769px) {
+    header {
+        background-color: #21242e;
+        position: sticky;
+        top: 0rem;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo {
+        justify-content: flex-start;
+    }
+
+    .hamburger {
+        margin-top: 20px;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        height: 3px;
+        background: gray;
+        border-radius: 2px;
+        width: 100%;
+    }
+
+    .header-nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .header-nav li {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        margin: 0;
+        border-bottom: 1px solid #aaaaaa;
+
+        .inicio {
+            color: #fa573a;
+        }
+
+    }
+
+    .header-nav a {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        background-color: #21242e;
+    }
+
+    .header-top {
+        justify-content: space-evenly;
+    }
+
+    .header-top li span {
+        display: none;
+    }
+
+    .active {
+        background-color: #fff;
+        color: #fa573a;
+    }
+
+
+    /* MAIN */
+    .hero h1 {
+        margin-left: 20px;
+    }
+
+    .hero h2 {
+        margin-left: 10px;
+    }
+
+    .hero h3 {
+        margin-left: 20px;
+    }
+
+    .hero-btn {
+        padding: 0 0 0 20px;
+    }
+
+    .rrss {
+        padding: 5px;
+    }
+
+
+    /* OUR SERVICES */
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex article {
+        width: 100%;
+    }
+
+    .aboutmobile {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text-container h2 {
+        margin-top: 2900px;
+        margin-left: -100px;
+        padding-top: 50px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 10px;
+        font-family: 'Handlee';
+    }
+
+    .text-container h2 span {
+        color: #fa573a;
+        font-weight: 600;
+    }
+
+    .aboutx {
+        margin-left: -50px;
+    }
+}
